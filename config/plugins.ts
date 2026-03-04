@@ -16,6 +16,7 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
         uploadStream: {},
         delete: {},
       },
+      allowedTypes: ['image/jpeg', 'image/png', 'image/gif', 'application/pdf']
     },
   },
 });
